@@ -42,5 +42,5 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	void AddSnakeElement(int ElementsNum = 1);
-	void Move(float DeltaTime);
+	void Move();
 };
